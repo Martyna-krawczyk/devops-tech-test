@@ -1,0 +1,5 @@
+steps:
+  - label: ":docker: Build Docker Image"
+    command: scripts/build.sh
+    agents:
+      queue: kepler-lab
